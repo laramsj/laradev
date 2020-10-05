@@ -1,0 +1,126 @@
+body {
+	background-color: #000;
+	color: #000000;
+	font-family: 'Raleway', Arial, Times;
+	font-size: 20px;
+}
+header {
+	padding: 50px;
+}
+
+nav{
+ padding: 15px;
+}
+
+header {
+	background-color: #1F2833;
+	font-size: 50px;
+	font-weight: 900;
+}
+nav {
+	background-color: #F79E02;
+
+}
+
+header, nav{
+	color: #F7E9BA;
+
+}
+.nav-style {
+	overflow: auto;
+  }
+  
+  /* Navbar links */
+  .nav-style a {
+	float: left;
+	text-align: center;
+	padding: 12px;
+	color: white;
+	text-decoration: none;
+  }
+  
+  /* Navbar links on mouse-over */
+  .nav-style a:hover {
+	text-decoration: underline;
+  }
+  
+  /* Current/active navbar link */
+  .active {
+	background-color:rgba(255, 255, 255, 0.5);
+  }
+  
+main {
+	background-color: #FFF;
+	padding-top: 40px ;
+}
+
+.grid-container{
+	display: grid;
+	grid-template-columns: 33% 33% auto;
+	row-gap: 20px;
+	column-gap: 20px;
+	color: black;
+	margin: auto;
+	padding: 20px;
+}
+
+.main-box{
+	height: auto;
+	border: solid 2px black;
+}
+
+#about-me{
+	padding: 75px;
+	background-color: #C5C6C7;
+}
+
+#resume{
+	padding: 75px;
+	background-color: rgba(	197, 198, 199,0.5);
+}
+.download-resume{
+	text-align: center;
+}
+
+h1, h3{
+	margin-left: 10px;
+
+}
+
+footer {
+	background-color: #FFE400;
+	color: #180731;
+	padding:1px;
+}
+
+footer p{
+	text-align: right;
+	font-size: 18px;
+	margin-right: 20px;
+}
+
+.zoom-image{
+	transition: transform .2s;
+	margin: 0 auto;
+}
+
+.zoom-image:hover {
+	-ms-transform: scale(1.5); /* IE 9 */
+	-webkit-transform: scale(1.5); /* Safari 3-8 */
+	transform: scale(1.5); 
+  }
+
+  @media only screen and (max-width: 768px) {
+	.grid-container{
+		display: grid;
+		grid-template-columns:  auto auto;
+	}
+  }
+  
+  @media only screen and (max-width: 425px) {
+	.grid-container{
+		display: grid;
+		grid-template-columns: auto;
+		padding-left: 0px;
+	}
+  }
