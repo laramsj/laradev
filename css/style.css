@@ -8,7 +8,7 @@ header {
 	padding: 80px;
 	background-image: url("../images/back-laptop-black.jpg");
 	background-repeat: no-repeat;
-	background-size: auto;
+	background-size: cover;
 }
 
 nav{
@@ -116,10 +116,21 @@ footer p{
 	transform: scale(1.5); 
   }
 
+  @media only screen and (max-width: 1024px) {
+	header{
+		font-size: 35px;
+	}
+
+  }
+
   @media only screen and (max-width: 768px) {
 	.grid-container{
 		display: grid;
 		grid-template-columns:  auto auto;
+	}
+
+	header{
+		font-size: 20px;
 	}
   }
   
