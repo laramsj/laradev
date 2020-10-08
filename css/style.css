@@ -5,10 +5,9 @@ body {
 	font-size: 20px;
 }
 header {
-	padding: 80px;
-	background-image: url("../images/back-laptop-black.jpg");
-	background-repeat: no-repeat;
+	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../images/back-laptop-black.jpg') no-repeat top center;
 	background-size: cover;
+	padding:2em 3em;
 }
 
 nav{
@@ -119,10 +118,14 @@ footer p{
 
   @media only screen and (max-width: 1024px) {
 	header{
-		font-size: 35px;
-		background-image: url("../images/small-back-laptop-black.jpg");
+		font-size: 45px;
+		padding:3em 3em;
 	}
 
+	header img{
+		width: 75%;
+		height: 75%;
+	}
   }
 
   @media only screen and (max-width: 768px) {
@@ -132,8 +135,13 @@ footer p{
 	}
 
 	header{
-		font-size: 20px;
-		background-image: url("../images/small-back-laptop-black.jpg");
+		font-size: 35px;
+		padding:3em 3em;
+	}
+
+	header img{
+		width: 75%;
+		height: 75%;
 	}
   }
   
@@ -145,7 +153,12 @@ footer p{
 	}
 	
 		header{
-		font-size: 20px;
-		background-image: url("../images/small-back-laptop-black.jpg");
+		font-size: 30px;
+		padding:1.5em 1.5em;
+	}
+
+	header img{
+		width: 50%;
+		height: 50%;
 	}
   }
