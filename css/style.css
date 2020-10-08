@@ -1,11 +1,14 @@
 body {
 	background-color: #000;
-	color: #000000;
+	color: #fff;
 	font-family: 'Raleway', Arial, Times;
 	font-size: 20px;
 }
 header {
-	padding: 50px;
+	padding: 80px;
+	background-image: url("../images/back-laptop-black.jpg");
+	background-repeat: no-repeat;
+	background-size: auto;
 }
 
 nav{
@@ -13,19 +16,16 @@ nav{
 }
 
 header {
-	background-color: #1F2833;
-	font-size: 50px;
+	background-color: #293241;
+	font-size: 75px;
 	font-weight: 900;
+	text-transform: uppercase;
 }
+
 nav {
-	background-color: #F79E02;
-
+	background-color: #505050;
 }
 
-header, nav{
-	color: #F7E9BA;
-
-}
 .nav-style {
 	overflow: auto;
   }
@@ -35,9 +35,10 @@ header, nav{
 	float: left;
 	text-align: center;
 	padding: 12px;
-	color: white;
+	color: #fff;
 	text-decoration: none;
   }
+
   
   /* Navbar links on mouse-over */
   .nav-style a:hover {
@@ -70,13 +71,16 @@ main {
 }
 
 #about-me{
-	padding: 75px;
-	background-color: #C5C6C7;
+	background-color: rgba(208, 208, 208, 0.5);
 }
 
 #resume{
-	padding: 75px;
-	background-color: rgba(	197, 198, 199,0.5);
+	background-color: rgba(240, 240, 240 ,0.5);
+}
+
+#about-me, #resume, #projects{
+	padding: 30px 0 75px 75px ;
+	color: #000;
 }
 .download-resume{
 	text-align: center;
@@ -84,12 +88,14 @@ main {
 
 h1, h3{
 	margin-left: 10px;
+}
 
+.logo-style{
+padding: 10px;	
 }
 
 footer {
-	background-color: #FFE400;
-	color: #180731;
+	background-color: #F7882F;
 	padding:1px;
 }
 
