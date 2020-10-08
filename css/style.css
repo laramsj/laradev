@@ -25,6 +25,10 @@ nav {
 	background-color: #505050;
 }
 
+p{
+	line-height: 2em;
+}
+
 .nav-style {
 	overflow: auto;
   }
