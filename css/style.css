@@ -7,7 +7,7 @@ body {
 header {
 	/**background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../images/back-laptop-black.jpg') no-repeat top center;**/
 	background-size: cover;
-	padding: 0.5em 2em;
+	padding: 0.3em 1em;
 }
 
 header {
@@ -103,11 +103,6 @@ footer p{
 		font-size: 45px;
 		padding:3em 3em;
 	}
-
-	header img{
-		width: 75%;
-		height: 75%;
-	}
   }
 
   @media only screen and (max-width: 768px) {
@@ -119,11 +114,6 @@ footer p{
 	header{
 		font-size: 35px;
 		padding:3em 3em;
-	}
-
-	header img{
-		width: 75%;
-		height: 75%;
 	}
   }
 
@@ -139,8 +129,10 @@ footer p{
 		padding:1.5em 1.5em;
 	}
 
-	header img{
-		width: 50%;
-		height: 50%;
-	}
+	.columns {
+			display: grid;
+			width: 100%;
+			margin: auto;
+			grid-template-columns: auto ;
+		}
   }
