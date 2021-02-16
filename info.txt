@@ -1,6 +1,0 @@
-colors:
-black 02040F
-gray E5DADA
-yellow E59500
-magenta 840032
-blue 002642
