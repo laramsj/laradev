@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Fixed Gear Bicycles</title>
+    <meta content="width=device-width, maximum-scale=1, initial-scale=1" name="viewport">
+    <!-- add stylesheet here -->
+    <link href="css/style.css" rel="stylesheet">
+    <!-- add Google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,500,900" rel="stylesheet">
+</head> 
+<body>
+    <!-- add container id here -->
+    <div id="container">
+        <h1>Order Your Fixie</h1>
+        <!-- Add Form tags/atrributes -->
+        <form action="https://webdevbasics.net/scripts/demo.php" method="POST">
+            <div>
+              <!-- add fieldset here -->
+                <fieldset>
+                  <!-- add legend here -->
+                    <legend>Personal Information</legend>                    <!-- start adding labels fieldset here -->
+                    <label for="fullName">Name</label>
+                    <input id="fullName" name="fullName" type="text" placeholder="First and Last Name" required>
+                    <label for="address">Address</label>
+                    <input id="address" name="address" type="text" placeholder="Street No. &amp; Name" required>
+                    <label for="city">City</label>
+                    <input id="city" name="city" type="text" placeholder="City Name" required>
+                    <label for="province">Province</label>
+                    <input id="province" name="province" type="text" placeholder="Province" required>
+                    <label for="postal">Postal Code</label>
+                    <input id="postal" name="postal" type="text" placeholder="xxx xxx" pattern="[A-Za-z][0-9][A-Za-z] [0-9][A-Za-z][0-9]"  required>
+                    <label for="email">Email</label>
+                    <input id="email" name="email" type="email" placeholder="x@y.com" required>
+                    <label for="telephone">Telephone</label>
+                    <input id="telephone" name="telephone" type="tel" placeholder="xxx xxx xxxx" required>
+            <!-- close fieldset here -->
+                </fieldset>
+            </div>
+            <div>
+                    <!-- add fieldset here -->
+                <fieldset>
+                    <!-- add legend here -->
+                    <legend>Bike Information</legend>
+                    <p>Select your color</p>
+                    <input id="purpleBike" name="bike" type="radio" value="purple">
+                      <!-- add labels here -->
+                    <label for="purpleBike">Purple</label>
+                    <input id="yellowBike" name="bike" type="radio" value="yellow">
+                    <label for="yellowBike">Yellow</label>
+                    <input id="redBike" name="bike" type="radio" value="red">
+                    <label for="redBike">Red</label><br>
+
+                      <!-- add labels here -->
+                    <label for="size">Select Your Size:</label>
+                    <select id="size" name="size">
+                      <option disabled selected>
+                          Choose a size
+                      </option>
+                        <option value="small">
+                            54
+                        </option>
+                        <option value="medium">
+                            56
+                        </option>
+                        <option value="large">
+                            58
+                        </option>
+                        <option value="xlarge">
+                            60
+                        </option>
+                    </select>
+                    <p>How many cool bikes do you want to order</p>
+                    <!-- add label  here -->
+                    <label for="quantity">Quantity</label>
+                    <input id="quantity" name="quantity" type="number" min="1" max="20" value="1">
+                    <br>
+                <!-- close fieldset here -->
+                </fieldset>
+            </div>
+            <div>
+                <!-- add fieldset here -->
+                <fieldset>
+                    <!-- add legend here -->
+                    <legend>Terms and Conditions</legend>
+                    <input id="agreement" type="checkbox" name="agreement" required>
+                    <!-- add labels here -->
+                    <label for="agreement">I agree to the terms and conditions</label>
+                <!-- close fieldset here -->
+                </fieldset>
+            </div>
+            <!-- add submit -->
+            <input type="submit" value="Order my Bike">
+        </form>
+    </div>
+</body>
+</html>
