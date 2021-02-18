@@ -1,0 +1,46 @@
+body {
+  background-color: #ffe6a7;
+}
+
+footer {
+  background-color: #432818;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: left;
+  padding: 10px 5px;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 2px;
+}
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+}
+
+#header-image {
+  background-image: url('../images/coffee-back-header.jpg');
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+#img-main-page {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+#img-main-page picture img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.img-card-main {
+  width: 150px;
+}
+
+@media screen and (max-width: 425px) {
+  #img-main-page {
+    grid-template-columns: auto;
+  }
+}
