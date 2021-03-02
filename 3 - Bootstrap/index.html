@@ -13,19 +13,8 @@
 </head>
 <body>
  <header>
- <!-- Intro settings -->
  <style>
-  /* Default height for small devices */
-  #intro-example {
-    height: 400px;
-  }
 
-  /* Height for devices larger than 992px */
-  @media (min-width: 992px) {
-    #intro-example {
-      height: 600px;
-    }
-  }
 </style>
 
 <!-- Navbar -->
@@ -49,7 +38,7 @@
 
 <!-- Background image -->
 <div
-  id="intro-example"
+  id="main-header"
   class="p-5 text-center bg-image"
   style="background-image: url('./images/coffee-back-header.jpg');
   background-size: cover;"
@@ -72,60 +61,68 @@
 </div>
 <!-- Background image -->
  </header>
+ <div class="container mb-3">
  <div class="row m-3" id="main-beans">
   <h2 class="p-3">Beans</h2>
  </div>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm d-flex">
+              <div class="card flex-fill">
+                <img src="./images/arabica.jpg" class="card-img-top img-card-main mx-auto d-block" alt="Liberica coffee bean image" >
+                <div class="card-body">
+                  <h5 class="card-title">Arabica Coffee Beans (Coffea arabica)</h5>
+                  <p class="card-text">Arabica beans are by far the most popular type of coffee beans, making up about 60% of the world’s coffee. 
+                    These tasty beans originated many centuries ago in the highlands of Ethiopia, and may even be the first coffee beans ever consumed! 
+                    The name Arabica likely comes from the beans’ popularity in 7th-century Arabia (present-day Yemen).</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Smooth</li>
+                  <li class="list-group-item">Complex flavor</li>
+                  <li class="list-group-item">Distinct lack of bitterness</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-sm d-flex">
+              <div class="card">
+                <img src="./images/robusta.jpg" class="card-img-top img-card-main mx-auto d-block" alt="Liberica coffee bean image" style="width: 150px;">
+                <div class="card-body" >
+                  <h5 class="card-title">Robusta Coffee Beans (Coffea caniphora)</h5>
+                  <p class="card-text">The second most popular type of coffee bean is Robusta. This bean originated in sub-Saharan Africa and 
+                    is now grown primarily in Africa and Indonesia. It’s also particularly popular in Vietnam and is often mixed into coffee blends.
+                     It’s a less expensive variety, making it a very budget-friendly choice for roasters
+                       Robusta beans are larger and more rounded than the other bean varieties. These plants typically grow much larger than Arabica plants,
+                     measuring between 15 and 20 feet. Robusta beans are typically considered to be hardier because they can grow at lower altitudes and 
+                     resist diseases. But recent research suggests that they don’t handle heat as well as was previously thought..</p>     
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Harsher and more bitter.</li>
+                  <li class="list-group-item">Strong smell</li>
+                  <li class="list-group-item">More caffeine</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-sm d-flex">
+              <div class="card">
+                <img src="./images/liberica.jpg" class="card-img-top img-card-main mx-auto d-block" alt="Liberica coffee bean image" style="width: 150px;">
+                <div class="card-body">
+                  <h5 class="card-title">Liberica Coffee Beans (Coffea liberica)</h5>
+                  <p class="card-text">Native to central and western Africa – specifically Liberia, hence its name – Coffea liberica is prized for its
+                     piquant floral aroma and bold, smoky flavor profile. This hardy species is frequently mixed with other varieties to add body and
+                      complexity, but rarely receives any credit. Unheard of in Western civilization before the late 1800s, Liberica gained a foothold
+                       with Southeast Asian coffee producers after a fungal disease (“coffee rust”) wiped out much of the region’s Arabica crops.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Wild inconsistency</li>
+                  <li class="list-group-item">Unusual and Nutty</li>
+                  <li class="list-group-item">Woody flavor </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
- <div class="row m-3">
-  <div class="col-sm">
- <div class="card" style="width: auto;">
-  <img src="./images/arabica.jpg" class="card-img-top img-card-main mx-auto d-block" alt="Liberica coffee bean image" >
-  <div class="card-body">
-    <h5 class="card-title">Arabica Coffee Beans (Coffea arabica)</h5>
-    <p class="card-text">Arabica beans are by far the most popular coffee beans, making up about 60% of the world’s coffee. 
-      These tasty beans originated many centuries ago in the highlands of Ethiopia, and may even be the first coffee beans ever consumed! 
-      The name Arabica likely comes from the beans’ popularity in 7th-century Arabia.</p>
-  </div>
-  <ul class="list-group list-group-flush">
-    <li class="list-group-item">Smooth</li>
-    <li class="list-group-item">Complex flavor</li>
-    <li class="list-group-item">Distinct lack of bitterness</li>
-  </ul>
-</div>
-  </div>
-  <div class="col-sm">
-<div class="card">
-  <img src="./images/robusta.jpg" class="card-img-top img-card-main mx-auto d-block" alt="Liberica coffee bean image" style="width: 150px;">
-  <div class="card-body" >
-    <h5 class="card-title">Robusta Coffee Beans (Coffea caniphora)</h5>
-    <p class="card-text">The second most popular type of coffee bean is Robusta. This bean originated in sub-Saharan Africa and is now 
-      grown primarily in Africa and Indonesia. It’s also particularly popular in Vietnam and is often mixed into coffee blends. 
-      It’s a less expensive variety, making it a very budget-friendly choice for roasters.</p>     
-  </div>
-  <ul class="list-group list-group-flush">
-    <li class="list-group-item">Harsher and more bitter.</li>
-    <li class="list-group-item">Strong smell</li>
-    <li class="list-group-item">More caffeine</li>
-  </ul>
-</div>
-</div>
-<div class="col-sm">
-<div class="card">
-  <img src="./images/liberica.jpg" class="card-img-top img-card-main mx-auto d-block" alt="Liberica coffee bean image" style="width: 150px;">
-  <div class="card-body">
-    <h5 class="card-title">Liberica Coffee Beans (Coffea liberica)</h5>
-    <p class="card-text">Native to central and western Africa – specifically Liberia, hence its name – Coffea liberica is 
-      prized for its piquant floral aroma and bold, smoky flavor profile. This hardy species is frequently mixed with other
-      varieties to add body and complexity, but rarely receives any credit. /p>
-  </div>
-  <ul class="list-group list-group-flush">
-    <li class="list-group-item">Wild inconsistency</li>
-    <li class="list-group-item">Unusual and Nutty</li>
-    <li class="list-group-item">Woody flavor </li>
-  </ul>
-</div>
-</div>
-</div>
 <div class="bg-white" id="main-history">
   <div class="container">
     <h2 class="p-3"> History</h2>
@@ -174,7 +171,7 @@
         short-lived. New nations were established on coffee economies. Fortunes were made and lost. By the end of the 18th century, coffee had 
         become one of the world's most profitable export crops. After crude oil, coffee is the most sought commodity in the world.</p>
 
-      <p>Source: https://www.ncausa.org/about-coffee/history-of-coffee</p>
+      <a href="https://www.ncausa.org/about-coffee/history-of-coffee">Source: The History of Coffee </a>
     </div>
   </div>
  <div id="img-main-page">
@@ -203,7 +200,7 @@
     event.preventDefault();
     $('html, body').animate({
         scrollTop: $($.attr(this, 'href')).offset().top
-    }, 400);
+    }, 1000);
   });
 </script>
 </body>
