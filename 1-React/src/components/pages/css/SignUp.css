@@ -1,0 +1,5 @@
+.form-container > h1,
+.form-container > h2 {
+  text-align: center;
+  padding: 2rem;
+}
