@@ -1,14 +1,20 @@
 import React from 'react'
-import './css/SignUp.css'
+import FormSignUp from './FormSignUp'
+import FormSuccess from './FormSuccess'
+import { useState } from 'react';
 
-function SignUp() {
+const SignUp = () => {
+  const [isSubmitted, setIsSubmitted] = useState(false);
+
+  function submitForm() {
+    setIsSubmitted(true);
+  }
   return (
-    <>
-    <div className='form-container'>
-    <h1>Sign Up Today</h1>
-    <h2>Not available yet!!</h2>
+    <div>
+      {!isSubmitted ?
+        (<FormSignUp submitForm={submitForm} />) :
+        (<FormSuccess />)}
     </div>
-    </>
   )
 }
 

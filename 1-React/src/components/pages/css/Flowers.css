@@ -1,10 +1,9 @@
 .flowers-container {
-  display: flex;
-  flex-flow: column;
-  align-items: center;
-  max-width: 1120px;
-  margin: 0 auto;
-  max-width: 80%;
+  margin: 30px auto;
+  width: 70%;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.2);
+  position: relative;
+  border-radius: 10px;
 }
 
 .flowers-table {
@@ -13,6 +12,7 @@
   align-items: center;
   border-collapse: collapse;
   padding-bottom: 3rem;
+  border-radius: 0 10px 10px 0;
 }
 
 .flowers-header > th {
@@ -42,6 +42,13 @@
   overflow-x: auto;
 }
 
+.flowers-container h1{
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: rgb(52, 78, 65);
+  text-align: center;
+}
+
 @media screen and (max-width: 767px) {
   .table-responsive {
     width: 100%;
@@ -57,4 +64,9 @@
   .table-responsive > .table > tbody > tr > td {
     white-space: nowrap;
   }
+  .flowers-container {
+    width: 100%;
+
+  }
 }
+

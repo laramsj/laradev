@@ -1,15 +1,24 @@
 .about-container {
-  display: flex;
-  flex-flow: column;
-  align-items: center;
-  max-width: 800px;
-  margin: 0 auto;
-  max-width: 70%;
-  padding-bottom: 2rem;
-  line-height: 1.6;
+  margin: 30px auto;
+  width: 70%;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.2);
+  position: relative;
+  border-radius: 10px;
 }
 
 .about-container > h1,
 .about-container > h2 {
-  padding: 2rem;
+  padding-top: 2rem;
+  text-align: center;
+}
+
+.about-container h1{
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: rgb(52, 78, 65)
+}
+
+.about-content{
+  margin: 20px 100px;
+  padding: 50px 0;
 }
